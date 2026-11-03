@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- PRIMARY favicon (real .ico binary — works in Chrome, Edge, Safari, FF) -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Modern SVG favicon fallback (any browser 2020+). Browsers use last match. -->
+    <link rel="icon" type="image/svg+xml" href="%PUBLIC_URL%/favicon.svg" />
+
+    <!-- iOS / PWA icons -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.svg" />
+    <link rel="apple-touch-icon" sizes="192x192" href="%PUBLIC_URL%/logo192.svg" />
+    <link rel="apple-touch-startup-image" href="%PUBLIC_URL%/logo512.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#27ae60" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="FoodConnect" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="FoodConnect" />
+    <meta
+      name="description"
+      content="FoodConnect — Donate Surplus Food · Feed the Needy · Reduce Wastage. A real-time React platform connecting Restaurants, Delivery Agents and NGOs."
+    />
+    <meta name="keywords" content="food donation, surplus food, ngo, restaurant, delivery agent, react app, foodconnect" />
+    <meta name="author" content="FoodConnect" />
+
+    <!-- Open Graph (social share card) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="FoodConnect | Donate Surplus Food" />
+    <meta
+      property="og:description"
+      content="Connect Restaurants · Delivery Agents · NGOs in real time to donate leftover food and feed the needy."
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/logo512.svg" />
+    <meta property="og:site_name" content="FoodConnect" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FoodConnect | Donate Surplus Food" />
+    <meta
+      name="twitter:description"
+      content="Connect Restaurants · Delivery Agents · NGOs to donate leftover food & reduce wastage."
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/logo512.svg" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Leaflet CSS for Live Donation Map -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+    <title>FoodConnect | Donate Surplus Food · Feed the Needy</title>
+  </head>
+  <body>
+    <noscript>
+      <div style="padding:40px;font-family:system-ui;max-width:600px;margin:40px auto;text-align:center;border:2px solid #27ae60;border-radius:16px;">
+        <h1 style="color:#1e5b37;">🍽️ FoodConnect</h1>
+        <p style="font-size:16px;color:#566573;">
+          You need to <strong>enable JavaScript</strong> to run this React web app.<br/>
+          FoodConnect is built with React 18 + React Router + SQLite backend.
+        </p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
